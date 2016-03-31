@@ -14,3 +14,8 @@ The bash script seedtorrent creates a .torrent file and starts seeding it with c
 #### Using seedtorrent
 - seedtorrent _fileOrFolder_ _torrentName.torrent_
 - now the .torrent file is ready to be distributed
+
+###### Next steps
+There's lots of room for improvement here. This was a really quick and dirty solution so that I could avoid using FTP.
+- seedtorrent installation and execution could be packaged into a docker container (would need to use shared volumes)
+- seedtorrent could host up a simple website that lists the .torrent files
